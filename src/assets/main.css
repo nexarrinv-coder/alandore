@@ -1,0 +1,92 @@
+/* fonts */
+@font-face {
+    font-family: Alegreya;
+    src: url(/src/assets/fonts/Alegreya.ttf);
+}
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url(/src/assets/fonts/AlegreyaSans-Light.ttf);
+}
+@font-face {
+    font-family: 'Alegreya Sans1';
+    src: url(/src/assets/fonts/AlegreyaSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Alegreya Sans2';
+    src: url(/src/assets/fonts/AlegreyaSans-Bold.ttf);
+}
+@font-face {
+    font-family: 'Accent Font';
+    src: url(/src/assets/fonts/Darker-Grotesque.ttf);
+}
+
+/* the colors */
+:root{
+    --pri-color: #16cb86;
+    --accent-color: #d7c32e;
+    --white: #f5fcfa;
+    --black: #021812;
+    --light-accent-color: #f4eed4;
+    --darker-pri-color: #05352f;
+
+    /* font sizes */
+    --base-fsize: 16px;
+    --sm-fsize: 13px;
+    --bgscreen-fsize: 18px;
+    --bg-fsize1: 22px;
+    --bg-fsize2: 26px;
+    --bg-fsize3: 30px;
+}
+
+/* element resets */
+a{
+    text-decoration: none;
+    color: var(--pri-color);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0; margin: 0;
+}
+
+p{
+    font-family: Alegreya, inter, Impact, serif;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Alegreya Sans2', sans-serif;
+}
+
+button{
+    background: none;
+    border-radius: .4rem;
+    padding: .2rem .8rem;
+    outline: none; border: 1px solid;
+    font: 1.1rem 'Alegreya Sans1', sans-serif;
+}
+
+/* utility classes */
+.flex{display: flex; gap: 1rem;}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.flx-shrink{flex-shrink: 2;}
+
+.pad1{padding: 1rem;}
+.pad2{padding: 2rem;}
+.pad3{padding: 3rem;}
+.pad4{padding: 4rem;}
+
+.card{
+    text-align: center;
+    padding: 0;
+    padding: 2rem;
+    max-width: 400px;
+    box-shadow: 0 4px 4px -3px var(--darker-pri-color);
+    border: 1px solid var(--light-accent-color);
+    border-radius: .4rem;
+    /* background: var(--light-accent-color); */
+}
