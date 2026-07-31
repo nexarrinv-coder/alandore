@@ -54,6 +54,20 @@ p{
 
 h1,h2,h3,h4{
     font-family: 'Alegreya Sans2', sans-serif;
+    color: var(--darker-pri-color);
+}
+
+h1,h2{
+    padding-left: 1rem;
+    border-left: 3.6px solid var(--pri-color);
+    margin: 2rem 0 1rem;
+    border-radius: .2rem;
+}
+
+h3, h4{
+    display: inline-block;
+    border-bottom: 2px solid var(--pri-color);
+    text-transform: uppercase;
 }
 
 button{

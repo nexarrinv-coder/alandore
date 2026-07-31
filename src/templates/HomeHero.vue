@@ -1,7 +1,9 @@
 <template>
     <div class="hero-txt flex-col">
         <p class="">
-            Alandore Health Uganda is the healthcare arm of Alandore Group Ltd, dedicated to building a healthy, thriving community in Northern Uganda. We bring together three specialised divisions — nutrition and wellness, pharmacy, and diagnostics — under one trusted brand, all headquartered in Laroo-Pece, Gulu City <br>
+            Building a healthier community takes more than one hand &hyphen; It takes a shared vision, trusted partnership, and a commitment to transforming lives. <br>
+            At Alandore Health, we believe that good health is the foundation of thriving families, productive workplaces, and prosperous communities.
+            <br>
             <button><RouterLink to="/about">Read About Us</RouterLink></button>
         </p>
         
@@ -72,6 +74,12 @@
 
         justify-self: flex-end;
         justify-content: center;
+    }
+
+    .dep-btns button{
+        color: var(--accent-color);
+        border-radius: .4rem;
+        border-right: 2px solid;
     }
 </style>
 
