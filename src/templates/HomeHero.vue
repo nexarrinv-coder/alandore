@@ -1,11 +1,8 @@
 <template>
     <div class="hero-txt flex-col">
-        <p class="flex-col">
-            Alandore Health Uganda is the healthcare arm of Alandore Group Ltd, dedicated to building a healthy, thriving community in Northern Uganda. We bring together three specialised divisions — nutrition and wellness, pharmacy, and diagnostics — under one trusted brand, all headquartered in Laroo-Pece, Gulu City
-
-            <div class="span">
-                <button>Read About Us</button>
-            </div>
+        <p class="">
+            Alandore Health Uganda is the healthcare arm of Alandore Group Ltd, dedicated to building a healthy, thriving community in Northern Uganda. We bring together three specialised divisions — nutrition and wellness, pharmacy, and diagnostics — under one trusted brand, all headquartered in Laroo-Pece, Gulu City <br>
+            <button><RouterLink to="/about">Read About Us</RouterLink></button>
         </p>
         
 
@@ -16,42 +13,16 @@
         </div>
     </div>
 
+
     <div class="cards flex">
         <div class="card">
-            <h1>cards 1</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis optio nihil adipisci molestiae soluta enim vel!</p>
-        </div>
-        <div class="card">
-            <h1>cards 2</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis optio nihil adipisci molestiae soluta enim vel!</p>
-        </div>
-        <div class="card">
-            <h1>cards 3</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis optio nihil adipisci molestiae soluta enim vel!</p>
-        </div>
-        <div class="card">
-            <h1>cards 1</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis optio nihil adipisci molestiae soluta enim vel!</p>
-        </div>
-        <div class="card">
-            <h1>cards 2</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis optio nihil adipisci molestiae soluta enim vel!</p>
-        </div>
-        <div class="card">
-            <h1>cards 3</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis optio nihil adipisci molestiae soluta enim vel!</p>
-        </div>
-        <div class="card">
-            <h1>cards 1</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis optio nihil adipisci molestiae soluta enim vel!</p>
-        </div>
-        <div class="card">
-            <h1>cards 2</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis optio nihil adipisci molestiae soluta enim vel!</p>
-        </div>
-        <div class="card">
-            <h1>cards 3</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis optio nihil adipisci molestiae soluta enim vel!</p>
+            <p>the author name</p>
+            <div class="tags">
+                <p>tag 1</p>
+                <p>gag 2</p>
+                <p>tag 3</p>
+            </div>
         </div>
     </div>
 
@@ -105,5 +76,6 @@
 </style>
 
 <script setup>
+    import { RouterLink } from 'vue-router';
 
 </script>

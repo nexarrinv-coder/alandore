@@ -3,7 +3,11 @@
     <div class="flex top-navs">
       <RouterLink to="/">
         <div class="logo flex">
-        <img src="/src/assets/logo.png" alt="Alandore Health LOGO without wording"><span>Alandore</span>
+        <img src="/src/assets/logo.png" alt="Alandore Health LOGO without wording">
+        <div class="flex-col logo-txt">
+          <span>Alandore</span>
+          <span class="acc-color sm-txt">HEALTH</span>
+        </div>
         </div>        
       </RouterLink>
       <div class="flex">
@@ -12,10 +16,10 @@
         <RouterLink to="/departments">DEPARTMENTS</RouterLink>
       </div>
       <div class="top-socials flex">
-        <RouterLink to="/">Facebook</RouterLink>
-        <RouterLink to="/">Instagram</RouterLink>
-        <RouterLink to="/">WhatsApp</RouterLink>
-        <RouterLink to="/">X</RouterLink>
+        <RouterLink to="/"><img src="./assets/icons/facebook.png" alt=""></RouterLink>
+        <RouterLink to="/"><img src="./assets/icons/instagram.png" alt=""></RouterLink>
+        <RouterLink to="/"><img src="./assets/icons/youtube.png" alt=""></RouterLink>
+        <RouterLink to="/"><img src="./assets/icons/twitter.png" alt=""></RouterLink>
       </div>
     </div>
   </header>
@@ -55,6 +59,20 @@
     align-items: flex-end;
     padding-bottom: 1rem;
     box-shadow: 0 4px 4px -6px var(--pri-color);
+  }
+
+  header .logo-txt{
+    gap: .2rem;
+  }
+
+  .top-socials{
+    border: 1px solid var(--accent-color);
+    padding: .4rem 1rem;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+  }.top-socials img{
+    height: 16px;
   }
 
   header .top-navs a{

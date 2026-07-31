@@ -23,7 +23,7 @@
 /* the colors */
 :root{
     --pri-color: #16cb86;
-    --accent-color: #d7c32e;
+    --accent-color: #cf8921;
     --white: #f5fcfa;
     --black: #021812;
     --light-accent-color: #f4eed4;
@@ -41,7 +41,6 @@
 /* element resets */
 a{
     text-decoration: none;
-    color: var(--pri-color);
 }
 
 *{
@@ -70,7 +69,6 @@ button{
 .flex-col{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
 }
 
 .flx-shrink{flex-shrink: 2;}
@@ -79,6 +77,8 @@ button{
 .pad2{padding: 2rem;}
 .pad3{padding: 3rem;}
 .pad4{padding: 4rem;}
+.acc-color{color: var(--accent-color);}
+.sm-txt{font-size: var(--base-fsize);}
 
 .card{
     text-align: center;

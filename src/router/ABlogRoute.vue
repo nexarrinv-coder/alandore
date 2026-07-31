@@ -1,16 +1,19 @@
 <template>
-    <h1>Carrots are more Essential than sugarcane</h1>
-    <p class="tagline">
-        All understand the need for sugars and the Urge that comes with consumming sugar containing foods. we assume the need sugars but actually need VITAMINS more than we emphasize it
-    </p>
-
+    <h1>Why follow the ALANDORE resource guides</h1>
     <p>
-        Carrots provide the essential nutrients needed for the proper function of your eyes. Sugar cane is important for energy for the body, and that is it.
+        There are lots of reasons to adhere to our guidelines for the betterment of your health. lets take a look at a shortlist here.
     </p>
 
-    <div class="quote">
-        Have you ever had juice thats contains carrots. The color is top, flavour memorable, viability - competitive, nutrients - record breaking.
+    <ol>
+        <li>It has become less of a hobby to an addiction to research and educate about better health</li>
+        <li>A team of professionals led by a professor in Natural foods and supliments.</li>
+        <li>Been providing coperate health advise for a while</li>
+    </ol>
+
+    <div class="editor" id="editor">
+
     </div>
+    
 </template>
 
 <style scoped>
@@ -18,5 +21,5 @@
 </style>
 
 <script setup>
-
+    
 </script>

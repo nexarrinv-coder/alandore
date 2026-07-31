@@ -25,7 +25,7 @@ const router = createRouter({
     },{
       name: 'blog',
       component: ABlogRoute,
-      path: '/blog'
+      path: '/blog/:slug'
     },{
       name: 'notfound',
       component: NotFoundRoute,
