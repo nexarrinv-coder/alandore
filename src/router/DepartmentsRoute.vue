@@ -95,45 +95,7 @@
 </template>
 
 <style scoped>
-    p{font: 18px/1.4 Alegreya, serif;}
 
-    dl{
-        font: 18px/1.5 'Alegreya sans', sans-serif;
-    }
-    dt{
-        font-family: 'Alegreya sans1';
-        letter-spacing: 1px;
-        margin-top: 1rem;
-    }
-
-    .container{
-        margin-left: 4rem;
-        margin-right: 4rem;
-    }
-
-    .plain-card{
-        padding: 2rem;
-        border: 1px solid var(--light-accent-color);
-        border-radius: .8rem;
-        box-shadow: 0 4px 4px -6px var(--accent-color), 0 -4px 4px -6px var(--accent-color);
-    }
-    
-    .plain-card p:first-of-type{
-        font-family: 'Alegreya Sans2';
-        font-weight: 560;
-    }
-    .plain-card p:last-of-type{
-        font-family: 'Alegreya Sans';
-        font-weight: 560;
-    }
-
-
-    .choose-us{
-        margin: 4rem 4rem 2rem;
-    }
-    .choose-us p{
-        font: 1.2rem/1.5 'Alegreya Sans', sans-serif;
-    }
 </style>
 
 <script setup>
