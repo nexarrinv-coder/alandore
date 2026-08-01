@@ -1,23 +1,26 @@
 <template>
     <div class="hero">
-        Knowledge is essential and understanding Concepts is always Key.
+        Prevention is expensive only until you face the Crisis.
         <br>
     </div>
     <h2 class="container">Know more about Alandore Health</h2>
 
-    <div class="mission container">
-        <h4>Our Mission</h4>
-        <p>
-            To improve the health and wellbeing of individuals and communities by delivering integrated, high-quality, and accessible healthcare solutions through Nutrition & Wellness, Pharmacy, and Diagnostics.
-        </p>
-    </div>
+    <article class="mission-vision">
+        <div class="mission">
+            <h4>Our Mission</h4>
+            <p>
+                To improve the <span class="il-focus-txt">health and wellbeing of individuals and communities</span> by delivering integrated, high-quality, and accessible healthcare solutions through Nutrition & Wellness, Pharmacy, and Diagnostics.
+            </p>
+        </div>
+    
+        <div class="vision">
+            <h4>Our Vision</h4>
+            <p>
+                To be Uganda’s trusted leader in integrated healthcare, empowering healthier lives and building thriving communities through innovation, excellence, and compassionate care.
+            </p>
+        </div>
+    </article>
 
-    <div class="vision container">
-        <h4>Our Vision</h4>
-        <p>
-            To be Uganda’s trusted leader in integrated healthcare, empowering healthier lives and building thriving communities through innovation, excellence, and compassionate care.
-        </p>
-    </div>
 
     <div class="container">
         <p>
@@ -29,28 +32,37 @@
         </p>
     </div>
 
-    <section class="container">
+    <section class="container divisions mt8">
         <h2>Our Divisions</h2>
+        <p>
+            We provide services under three main departments.
+        </p>
+        
+        <div class="cards flex mt2">
+            <div class="card">
+                <h4>Nutrition & Wellness</h4>
+                <p>
+                    Our Nutrition & Wellness Division empowers individuals, families, and organizations to achieve better health through nutrition assessment, personalized nutrition care, wellness programs, lifestyle coaching, preventive health education, corporate wellness solutions, and evidence-based nutrition interventions that support healthy living across every stage of life.
+                </p>
+                <button><RouterLink to="">More Details</RouterLink></button>
+            </div>
 
-        <div class="">
-            <h4>Nutrition & Wellness</h4>
-            <p>
-                Our Nutrition & Wellness Division empowers individuals, families, and organizations to achieve better health through nutrition assessment, personalized nutrition care, wellness programs, lifestyle coaching, preventive health education, corporate wellness solutions, and evidence-based nutrition interventions that support healthy living across every stage of life.
-            </p>
+            <div class="card">
+                <h4>Pharmacy</h4>
+                <p>
+                    Our Pharmacy Division provides quality-assured medicines, nutritional supplements, medical supplies, and professional pharmaceutical care. We are committed to ensuring safe, reliable, and affordable access to health products while promoting the responsible use of medicines to improve patient outcomes.
+                </p>
+                <button><RouterLink to="">More Details</RouterLink></button>
+            </div>
+        
+            <div class="card">
+                <h4>Diagnostics</h4>
+                <p>
+                    Our Diagnostics Division delivers accurate, timely, and dependable laboratory and diagnostic services that support informed clinical decision-making, disease prevention, early detection, treatment monitoring, and better health outcomes.
+                </p>
+                <button><RouterLink to="">More Details</RouterLink></button>
         </div>
     
-        <div class="">
-            <h4>Pharmacy</h4>
-            <p>
-                Our Pharmacy Division provides quality-assured medicines, nutritional supplements, medical supplies, and professional pharmaceutical care. We are committed to ensuring safe, reliable, and affordable access to health products while promoting the responsible use of medicines to improve patient outcomes.
-            </p>
-        </div>
-    
-        <div class="">
-            <h4>Diagnostics</h4>
-            <p>
-                Our Diagnostics Division delivers accurate, timely, and dependable laboratory and diagnostic services that support informed clinical decision-making, disease prevention, early detection, treatment monitoring, and better health outcomes.
-            </p>
         </div>
     </section>
 
@@ -94,6 +106,37 @@
     .container{
         margin: 2rem 4rem;
     }
+
+    /* mission and vision */
+    .mission-vision p{
+        color: var(--darker-pri-color);
+        font-weight: 560;
+        font-family: 'Accent Font', sans-serif;
+
+    }
+    .mission-vision{
+        margin: 3.2rem 3rem 1rem;
+        border-radius: 1rem;
+        background: var(--light-accent-color);
+        padding: 2rem;
+        
+        display: flex;
+    }
+    .mission-vision div{
+        padding: 4rem 4rem 1rem;
+    }
+
+    /* section.divisions{} */
+    section.divisions .cards{
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .cards .card{
+        padding: 3rem;
+    }
+
+
 </style>
 
 <script setup>
