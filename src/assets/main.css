@@ -94,13 +94,23 @@ button{
 .acc-color{color: var(--accent-color);}
 .sm-txt{font-size: var(--base-fsize);}
 
+.mt1{margin-top: 1rem;}
+.mt2{margin-top: 2rem;}
+.mt4{margin-top: 4rem;}
+.mt8{margin-top: 8rem;}
+
 .card{
-    text-align: center;
-    padding: 0;
-    padding: 2rem;
-    max-width: 400px;
     box-shadow: 0 4px 4px -3px var(--darker-pri-color);
     border: 1px solid var(--light-accent-color);
     border-radius: .4rem;
     /* background: var(--light-accent-color); */
+}
+
+.il-focus-txt{
+    display: inline-block;
+    background-color: var(--darker-pri-color);
+    padding: .1rem .4rem;
+    color: var(--light-accent-color);
+    border-radius: .2rem;
+    font-size: 1.1rem;
 }
